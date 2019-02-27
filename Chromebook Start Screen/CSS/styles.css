@@ -1,0 +1,102 @@
+body{
+    background-color: maroon;
+    font-family: Arial;
+}
+.title{
+    margin: 5%;
+    padding: 2%;
+    border-style: dashed;
+    border-width: 15px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+.title-text{
+    font-size: 48px;
+    color: maroon;
+    text-align: center;
+}
+.center-underline-title{
+    text-align: center;
+    font-style: oblique;
+    text-decoration: underline;
+    color: maroon;
+}
+.maroon{
+    color: maroon;
+}
+.quick-links{
+    margin: 5%;
+    padding: 2%;
+    border-style: solid;
+    border-color: black;
+    border-width: 15px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+.table{
+    margin: 5%;
+    padding: 2%;
+    border-style: solid;
+    border-color: black;
+    border-width: 15px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+table.center{
+    margin-left: auto;
+    margin-right: auto
+}
+table, th, td{
+    border-width: 1px;
+    border-style: solid;
+    border-color: maroon;
+}
+table{
+    background-color: maroon;
+}
+th, td{
+    background-color: antiquewhite;
+}
+.center-link{
+    text-align: center;
+}
+/* Columns Code: DO NOT ADD CSS PAST THIS POINT. Credit for this code: w3schools*/
+* {
+    box-sizing: border-box;
+}
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: auto; 
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: #aaa;
+}
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px; 
+    background-color: #aaa;
+}
+.column3 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px; 
+    background-color: #aaa;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
