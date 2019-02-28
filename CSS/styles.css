@@ -42,6 +42,7 @@ body{
     border-color: black;
     border-width: 15px;
     border-radius: 15px;
+    background-color: white;
 }
 .table{
     margin: 5%;
