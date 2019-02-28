@@ -61,6 +61,9 @@ th, td{
 .center-link{
     text-align: center;
 }
+a{
+  color: maroon;  
+}
 /* Columns Code: DO NOT ADD CSS PAST THIS POINT. Credit for this code: w3schools*/
 * {
     box-sizing: border-box;
