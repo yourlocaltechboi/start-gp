@@ -72,7 +72,7 @@ a{
 }
 .column1 {
     float: left;
-    width: 33.33%;
+    width: 25%;
     padding: 10px;
     height: auto; 
     border-style: solid;
@@ -82,7 +82,7 @@ a{
 }
 .column2 {
     float: left;
-    width: 33.33%;
+    width: 25%;
     padding: 10px;
     height: auto;
     border-style: solid;
@@ -92,7 +92,17 @@ a{
 }
 .column3 {
     float: left;
-    width: 33.33%;
+    width: 25%;
+    padding: 10px;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px; 
+    background-color: #aaa;
+}
+.column4 {
+    float: left;
+    width: 25%;
     padding: 10px;
     height: auto;
     border-style: solid;
