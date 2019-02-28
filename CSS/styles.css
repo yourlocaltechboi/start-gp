@@ -1,18 +1,13 @@
 /* Main stylesheet for "joemcrainbow.github.io/start" */
 
+/* Code for the entire site, primarily background effects */
 body{
     background-color: maroon;
     font-family: Arial;
 }
-.title{
-    margin: 5%;
-    padding: 2%;
-    border-style: dashed;
-    border-width: 15px;
-    border-radius: 15px;
-    background-color: antiquewhite;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
-}
+
+/* Text Effects */
+
 .title-text{
     font-size: 48px;
     color: maroon;
@@ -26,6 +21,24 @@ body{
 }
 .maroon{
     color: maroon;
+}
+.center-link{
+    text-align: center;
+}
+a{
+  color: maroon;  
+}
+
+/* Borders, Boxes, and Tables */
+
+.title{
+    margin: 5%;
+    padding: 2%;
+    border-style: dashed;
+    border-width: 15px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 .quick-links{
     margin: 5%;
@@ -71,17 +84,20 @@ table{
 th, td{
     background-color: antiquewhite;
 }
-.center-link{
-    text-align: center;
-}
-a{
-  color: maroon;  
-}
+
+/* Image Properties */
+
 .gitlogo{
     width: 50px;
     height: 50px;
 }
-/* Columns Code: DO NOT ADD CSS PAST THIS POINT. Credit for this code: w3schools*/
+
+/* 
+   Columns Code for Home Page: 
+   DO NOT ADD CSS PAST THIS POINT.
+   Credit for this code: w3schools
+*/
+
 * {
     box-sizing: border-box;
 }
