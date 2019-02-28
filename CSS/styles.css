@@ -12,6 +12,7 @@ body{
     font-size: 48px;
     color: maroon;
     text-align: center;
+    font-family: 'Righteous', cursive;
 }
 .center-underline-title{
     text-align: center;
@@ -38,7 +39,6 @@ a{
     border-width: 15px;
     border-radius: 15px;
     background-color: antiquewhite;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 .quick-links{
     margin: 5%;
