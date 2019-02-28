@@ -35,6 +35,15 @@ body{
     border-radius: 15px;
     background-color: antiquewhite;
 }
+.quick-links-noback{
+    margin: 5%;
+    padding: 2%;
+    border-style: solid;
+    border-color: black;
+    border-width: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
 .table{
     margin: 5%;
     padding: 2%;
