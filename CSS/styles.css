@@ -12,6 +12,7 @@ body{
     font-size: 48px;
     color: maroon;
     text-align: center;
+    font-family: Oswald;
 }
 .center-underline-title{
     text-align: center;
@@ -39,7 +40,6 @@ a{
     border-width: 15px;
     border-radius: 15px;
     background-color: antiquewhite;
-    font-family: 'Fredericka the Great';
 }
 .quick-links{
     margin: 5%;
