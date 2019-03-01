@@ -15,7 +15,6 @@ body{
 }
 .center-underline-title{
     text-align: center;
-    font-style: oblique;
     text-decoration: underline;
     color: maroon;
     font-family: Oswald;
