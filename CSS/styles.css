@@ -33,6 +33,11 @@ a{
 
 /* Borders, Boxes, and Tables */
 
+.iframe{
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+}
 .title{
     margin: 5%;
     padding: 2%;
