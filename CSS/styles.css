@@ -7,9 +7,6 @@ body{
 }
 
 /* Text Effects */
-title{
-    color: yellow;
-}
 .title-text{
     font-size: 48px;
     color: maroon;
