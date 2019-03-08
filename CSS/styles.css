@@ -153,39 +153,38 @@ th, td{
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  position: fixed;
-  top: 0px;
-  right: 0;
-  left: 0;
-  margin-bottom: 10px;
-  margin: 0 auto;
-  background-color: #333;
-  overflow: hidden;
-  margin: 0px;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    background-color: #333;
+    overflow: hidden;
+    margin: 0px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  text-align: center;
-  margin: 0 auto;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  opacity: 0.75;
-  background-color: gray;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: gray;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: antiquewhite;
-  color: black;
-  height: 0 auto;
+    background-color: antiquewhite;
+    color: black;
+    height: 0 auto;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #660000;
-  color: white;
-  margin: 0 auto
+    background-color: #660000;
+    color: white;
+    margin: 0 auto
 }
