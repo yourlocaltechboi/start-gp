@@ -32,6 +32,9 @@ a{
 
 /* Borders, Boxes, and Tables */
 
+.dirrow{
+    padding: 2%;  
+}
 .iframe{
     border-style: solid;
     border-width: 2px;
