@@ -32,7 +32,7 @@ a{
 
 /* Borders, Boxes, and Tables */
 
-td.dirrow{
+.dirrow{
     padding: 2%;  
 }
 .iframe{
