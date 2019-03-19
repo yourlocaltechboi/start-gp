@@ -2,7 +2,7 @@
 
 /* Code for the entire site, primarily background effects */
 body{
-    background-color: maroon;
+    background-color: #ff00cc;
     font-family: 'Josefin Sans';
 }
 
@@ -16,11 +16,11 @@ body{
 .center-underline-title{
     text-align: center;
     text-decoration: underline;
-    color: maroon;
+    color: #ff00cc;
     font-family: Oswald;
 }
 .maroon{
-    color: maroon;
+    color: #ff00cc;
 }
 .center-link{
     text-align: center;
