@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+@mixin color-opacity($color, $opacity: .3) {
+    color: $color; /* The Fallback */
+    color: rgba($color, $opacity);
+}
+
+:root {
+	--purple: 							#5F2093;
+	--green: 								#0d6e38;
+	--white: 								#fff;
+	--black-1c:							#1c1c1c;
+	--black: 								#232323;
+	--red:									#a81c26;
+	--font-size:						calc(26px + 3vw);
+	--font-size-default:		46px;
+	--letter-spacing:				2px;
+	--line-height:					1.5;
+	--count-copy-text:			4;
+	--animation-duration: 	.5s;
+	--animation-function:		cubic-bezier(0.86, 0, 0.07, 1);
+	--animation-direction: 	alternate;
+}
+
+$count-copy-text-up: 5;
+$count-copy-text-down: 5;
+$count-down-from: ($count-copy-text-down + 2);
+$count-down-to: 	($count-copy-text-down * 2 + 1);
+
+body {
+	background-color: var(--black);
+	color: var(--white);
+	font-family: Montserrat, sans-serif;
+}
+
+.poster {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	min-width: 310px;
+	width: 100%;
+	max-width: 420px;
+	height: ($count-copy-text-up * 100)+px;
+	
+	@supports (display: grid) {
+		display: -ms-grid;
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-template-rows: repeat($count-down-to, 1fr);
+		.poster__title, .poster__text {
+			-ms-grid-column: 1 / -1;
+			grid-column: 1 / -1;
+			text-align: center;
+			line-height: var(--line-height);
+			text-transform: uppercase;
+			letter-spacing: var(--letter-spacing);
+			font-size: calc(var(--font-size-default) * 1.5);
+			font-weight: 700;
+			@media (max-width: 767px) {
+				font-size: calc(var(--font-size) * 1.5);
+			}
+		}
+		.poster__title {
+			background-color: var(--red);
+			vertical-align: middle;
+		}
+		.poster__text {
+			overflow: hidden;
+			color: var(--purple);
+			
+			&--up {
+				line-height: 1;
+				@for $i from 1 through $count-copy-text-up {
+					$alpha: $i * 0.1;
+					&:nth-child(#{$i}) {
+						-webkit-text-stroke: 2px rgba(#0d6e38, $alpha);
+						text-stroke: 2px rgba(#0d6e38, $alpha);
+						-webkit-text-fill-color: transparent;
+						text-fill-color: transparent;
+						color: transparent;
+						animation: blink-#{$i} var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+					}
+				}
+			}
+			&--down {
+				line-height: .2;
+				@for $i from $count-down-from through $count-down-to {
+					$alpha: (($count-down-to + 1) - $i) * 0.1;
+					&:nth-child(#{$i}) {
+						-webkit-text-stroke: 2px rgba(#0d6e38, $alpha);
+						text-stroke: 2px rgba(#0d6e38, $alpha);
+						-webkit-text-fill-color: transparent;
+						text-fill-color: transparent;
+						animation: blink-#{($count-down-to + 1) - $i} var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+					}
+				}
+			}
+		}
+	}
+}
+
+@for $i from 1 through $count-copy-text-up {
+	@keyframes blink-#{$i} {
+		0% {
+			opacity: 0;
+		}
+		#{(($count-copy-text-up + 1) - $i) * 40}% {
+			opacity: 1;
+		}
+		#{(($count-copy-text-up + 1) - $i) * 20}% {
+			opacity: 0;
+		}
+	}
+}
