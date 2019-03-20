@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+:root {
+  --purple: #5F2093;
+  --green: #0d6e38;
+  --white: #fff;
+  --black-1c: #1c1c1c;
+  --black: #232323;
+  --red: #a81c26;
+  --font-size: calc(26px + 3vw);
+  --font-size-default: 46px;
+  --letter-spacing: 2px;
+  --line-height: 1.5;
+  --count-copy-text: 4;
+  --animation-duration: .5s;
+  --animation-function: cubic-bezier(0.86, 0, 0.07, 1);
+  --animation-direction: alternate;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: Montserrat, sans-serif;
+}
+
+.poster {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  min-width: 310px;
+  width: 100%;
+  max-width: 420px;
+  height: 500px;
+}
+@supports (display: grid) {
+  .poster {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+  }
+  .poster .poster__title, .poster .poster__text {
+    -ms-grid-column: 1 / -1;
+    grid-column: 1 / -1;
+    text-align: center;
+    line-height: var(--line-height);
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing);
+    font-size: calc(var(--font-size-default) * 1.5);
+    font-weight: 700;
+  }
+  @media (max-width: 767px) {
+    .poster .poster__title, .poster .poster__text {
+      font-size: calc(var(--font-size) * 1.5);
+    }
+  }
+  .poster .poster__title {
+    background-color: var(--red);
+    vertical-align: middle;
+  }
+  .poster .poster__text {
+    overflow: hidden;
+    color: var(--purple);
+  }
+  .poster .poster__text--up {
+    line-height: 1;
+  }
+  .poster .poster__text--up:nth-child(1) {
+    -webkit-text-stroke: 2px rgba(13, 110, 56, 0.1);
+    text-stroke: 2px rgba(13, 110, 56, 0.1);
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    color: transparent;
+    -webkit-animation: blink-1 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+            animation: blink-1 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+  }
+  .poster .poster__text--up:nth-child(2) {
+    -webkit-text-stroke: 2px rgba(13, 110, 56, 0.2);
+    text-stroke: 2px rgba(13, 110, 56, 0.2);
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    color: transparent;
+    -webkit-animation: blink-2 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+            animation: blink-2 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+  }
+  .poster .poster__text--up:nth-child(3) {
+    -webkit-text-stroke: 2px rgba(13, 110, 56, 0.3);
+    text-stroke: 2px rgba(13, 110, 56, 0.3);
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    color: transparent;
+    -webkit-animation: blink-3 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+            animation: blink-3 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+  }
+  .poster .poster__text--up:nth-child(4) {
+    -webkit-text-stroke: 2px rgba(13, 110, 56, 0.4);
+    text-stroke: 2px rgba(13, 110, 56, 0.4);
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    color: transparent;
+    -webkit-animation: blink-4 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+            animation: blink-4 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+  }
+  .poster .poster__text--up:nth-child(5) {
+    -webkit-text-stroke: 2px rgba(13, 110, 56, 0.5);
+    text-stroke: 2px rgba(13, 110, 56, 0.5);
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    color: transparent;
+    -webkit-animation: blink-5 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+            animation: blink-5 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+  }
+  .poster .poster__text--down {
+    line-height: .2;
+  }
+  .poster .poster__text--down:nth-child(7) {
+    -webkit-text-stroke: 2px rgba(13, 110, 56, 0.5);
+    text-stroke: 2px rgba(13, 110, 56, 0.5);
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-animation: blink-5 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+            animation: blink-5 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+  }
+  .poster .poster__text--down:nth-child(8) {
+    -webkit-text-stroke: 2px rgba(13, 110, 56, 0.4);
+    text-stroke: 2px rgba(13, 110, 56, 0.4);
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-animation: blink-4 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+            animation: blink-4 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+  }
+  .poster .poster__text--down:nth-child(9) {
+    -webkit-text-stroke: 2px rgba(13, 110, 56, 0.3);
+    text-stroke: 2px rgba(13, 110, 56, 0.3);
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-animation: blink-3 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+            animation: blink-3 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+  }
+  .poster .poster__text--down:nth-child(10) {
+    -webkit-text-stroke: 2px rgba(13, 110, 56, 0.2);
+    text-stroke: 2px rgba(13, 110, 56, 0.2);
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-animation: blink-2 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+            animation: blink-2 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+  }
+  .poster .poster__text--down:nth-child(11) {
+    -webkit-text-stroke: 2px rgba(13, 110, 56, 0.1);
+    text-stroke: 2px rgba(13, 110, 56, 0.1);
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-animation: blink-1 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+            animation: blink-1 var(--animation-duration) var(--animation-function) var(--animation-direction) infinite;
+  }
+}
+
+@-webkit-keyframes blink-1 {
+  0% {
+    opacity: 0;
+  }
+  200% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink-1 {
+  0% {
+    opacity: 0;
+  }
+  200% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes blink-2 {
+  0% {
+    opacity: 0;
+  }
+  160% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+}
+@keyframes blink-2 {
+  0% {
+    opacity: 0;
+  }
+  160% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes blink-3 {
+  0% {
+    opacity: 0;
+  }
+  120% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+}
+@keyframes blink-3 {
+  0% {
+    opacity: 0;
+  }
+  120% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes blink-4 {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+@keyframes blink-4 {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes blink-5 {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+}
+@keyframes blink-5 {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+}
