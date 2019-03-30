@@ -2,26 +2,11 @@
 <html>
     <head>
         <title>Other Links</title>
-        <link rel="stylesheet" href="CSS/styles.css">
-        <link rel="icon" href="tenor.gif">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135467915-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-135467915-1');
-        </script>
+        <script src="JS/include.js"></script>
+        <div include="includes/head.html"></div>
     </head>
     <body>
-        <div class="topnav">
-          <a class="active" href="home">Home</a>
-          <a href="education">Education Links</a>
-          <a href="coding">Coding Links</a>
-          <a href="other">Other Links</a>
-          <a href="games">Games</a>
-        </div>
+        <div include="includes/navbar.html"></div>
         <div class="title">
             <h1 class="center-underline-title">Other Links</h1>
         </div>
@@ -51,5 +36,8 @@
                 </tr>
             </table>
         </div>
+        <script>
+            includeHTML();
+        </script>
     </body>
 </html>
