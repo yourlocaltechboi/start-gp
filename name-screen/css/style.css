@@ -267,3 +267,6 @@ body {
     opacity: 0;
   }
 }
+a{ 
+  color: var( --white);
+}
