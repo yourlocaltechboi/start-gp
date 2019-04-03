@@ -117,7 +117,7 @@ th, td{
     float: left;
     width: 25%;
     padding: 10px;
-    height: auto; 
+    height: 250px; 
     border-style: solid;
     border-color: black;
     border-width: 2px;
@@ -127,7 +127,7 @@ th, td{
     float: left;
     width: 25%;
     padding: 10px;
-    height: auto;
+    height: 250px;
     border-style: solid;
     border-color: black;
     border-width: 2px; 
@@ -137,7 +137,7 @@ th, td{
     float: left;
     width: 25%;
     padding: 10px;
-    height: auto;
+    height: 250px;
     border-style: solid;
     border-color: black;
     border-width: 2px; 
@@ -147,7 +147,7 @@ th, td{
     float: left;
     width: 25%;
     padding: 10px;
-    height: auto;
+    height: 250px;
     border-style: solid;
     border-color: black;
     border-width: 2px; 
