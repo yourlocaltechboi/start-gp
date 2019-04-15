@@ -1,0 +1,201 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "ungit",
+        "scope": null,
+        "escapedName": "ungit",
+        "name": "ungit",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/root"
+    ]
+  ],
+  "_from": "ungit@latest",
+  "_hasShrinkwrap": false,
+  "_id": "ungit@1.4.43",
+  "_inCache": true,
+  "_location": "/ungit",
+  "_nodeVersion": "11.13.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/ungit_1.4.43_1554071561721_0.6403677812928228"
+  },
+  "_npmUser": {
+    "name": "fredriknoren",
+    "email": "fredrik.jw.noren@gmail.com"
+  },
+  "_npmVersion": "6.9.1-next.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ungit",
+    "scope": null,
+    "escapedName": "ungit",
+    "name": "ungit",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/ungit/-/ungit-1.4.43.tgz",
+  "_shasum": "896a6f9f4961de249cb98ad65d9cf1aaaf2201cf",
+  "_shrinkwrap": null,
+  "_spec": "ungit",
+  "_where": "/root",
+  "author": {
+    "name": "Fredrik Norén",
+    "email": "fredrik.jw.noren@gmail.com"
+  },
+  "bin": {
+    "ungit": "./bin/ungit",
+    "0ungit-credentials-helper": "./bin/credentials-helper"
+  },
+  "bugs": {
+    "url": "https://github.com/FredrikNoren/ungit/issues"
+  },
+  "dependencies": {
+    "bluebird": "~3.5.3",
+    "blueimp-md5": "~2.10.0",
+    "body-parser": "~1.18.3",
+    "color": "~3.1.0",
+    "cookie-parser": "~1.4.4",
+    "crossroads": "~0.12.2",
+    "dedent": "^0.7.0",
+    "diff2html": "~2.7.0",
+    "dnd-page-scroll": "0.0.4",
+    "express": "~4.16.4",
+    "express-session": "~1.15.6",
+    "getmac": "~1.4.6",
+    "hasher": "~1.2.0",
+    "ignore": "~5.0.6",
+    "jquery": "^3.3.1",
+    "jquery-ui-bundle": "~1.12.1",
+    "just-detect-adblock": "~1.0.0",
+    "knockout": "~3.5.0",
+    "locks": "~0.2.2",
+    "lodash": "~4.17.11",
+    "memorystore": "~1.6.1",
+    "mkdirp": "~0.5.1",
+    "moment": "~2.24.0",
+    "node-cache": "~4.2.0",
+    "npm": "~6.9.1-next.0",
+    "npm-registry-client": "~8.6.0",
+    "nprogress": "^0.2.0",
+    "octicons": "~3.5.0",
+    "opn": "~5.5.0",
+    "os-homedir": "~2.0.0",
+    "passport": "~0.4.0",
+    "passport-local": "~1.0.0",
+    "raven-js": "~3.27.0",
+    "rc": "~1.2.8",
+    "rimraf": "~2.6.3",
+    "semver": "~5.6.0",
+    "serve-static": "~1.13.2",
+    "signals": "~1.0.0",
+    "snapsvg": "~0.5.1",
+    "socket.io": "~2.2.0",
+    "superagent": "~4.1.0",
+    "temp": "~0.9.0",
+    "winston": "~2.4.0",
+    "yargs": "~13.2.2"
+  },
+  "description": "Git made easy",
+  "devDependencies": {
+    "ansi-color": "~0.2.1",
+    "babel-core": "~6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "browserify": "~16.2.3",
+    "electron": "4.1.1",
+    "electron-packager": "~13.1.1",
+    "expect.js": "~0.3.1",
+    "extract-zip": "~1.6.7",
+    "grunt": "~1.0.4",
+    "grunt-babel": "~7.0.0",
+    "grunt-contrib-clean": "~2.0.0",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-imagemin": "~3.1.0",
+    "grunt-contrib-jshint": "~2.1.0",
+    "grunt-contrib-less": "~2.0.0",
+    "grunt-contrib-watch": "~1.1.0",
+    "grunt-image-embed": "0.3.3",
+    "grunt-lineending": "~1.0.0",
+    "grunt-mocha-istanbul": "~5.0.2",
+    "grunt-mocha-test": "~0.13.3",
+    "grunt-plato": "~1.4.0",
+    "grunt-release": "~0.14.0",
+    "istanbul": "~0.4.5",
+    "mocha": "~6.0.2",
+    "nightmare": "~3.0.1",
+    "supertest": "~4.0.2"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-KD8EZhx9BsBql0zEZy+TOlkEEfv6Lnd3ryUxKtUS3vQGbzl46toLTDXA0NLcPx4DHEWheiu1FfKO/me7deWTiw==",
+    "shasum": "896a6f9f4961de249cb98ad65d9cf1aaaf2201cf",
+    "tarball": "https://registry.npmjs.org/ungit/-/ungit-1.4.43.tgz",
+    "fileCount": 231,
+    "unpackedSize": 8664546,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcoUAKCRA9TVsSAnZWagAAdNwQAI7Emgg44Rio0B4Nd7mg\nNt5JkK05iwpt7iDaEr/WDnXhtB9AFPI5jhOw/SEsoqkVySllioUqpmU4/Wno\n9EzDzFah+AvkhN6zthTuQxQmSX//oqnzwoNEowd92Juw9vJN6y2XrDT+EHY2\nSoeoOkdPXZvdgMStEbgP1ZJlDOLMp7dEtO5wX/xhX778mtddb+I6f9YD0AnV\ntQsOjYM3KDyJ/cpmSEUYAlwWiDH3OWbL3A3VvIaMBIDmIwO9itPaMfxEvwm6\nTbbbZ2pgH+XYQ7790e++TUD2oH5P3N2o9bu3QLZDt+qNiXG+jKbNk0KSe2+m\nuLYR6Hi7NVSYpsP4oMnYWQP3dg0d5Ip57Fi1mkQ3ju+H3DilwVQj8O1oarvP\nAGcF8VOudGYt5oZh8ud/huwGLjg09XaHnCVKtl5b0df83+OrELSKrNcRSuZd\nJtsESpIRFp7c0IoDsv96yMBkFJotVWogZVBMBrA1oxeo52AC3l4JVkAmgWhk\nKq0Ylqo5Z5mGYslJMwPA0JW2uEDdAtTER5m4eZx6wqcnxm3a6pBHZZ0o/PB5\nGApt/CVj20TXIqjLpmbvKT6T9NEFMfj8Z5Qhc4t8aCFkpeReZ0jRfuSa8HiD\n9j6+OGyPQmyIsBTFimFLryqr6SKEgDBX5ue4gXjm3H0BK7qAiswBXyxrTIZm\nkoF+\r\n=0Xsb\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=10.14"
+  },
+  "gitHead": "0e9368a3c91c91371316669ceceb898fb790ab20",
+  "homepage": "https://github.com/FredrikNoren/ungit#readme",
+  "license": "MIT",
+  "main": "public/main.js",
+  "maintainers": [
+    {
+      "name": "fredriknoren",
+      "email": "fredrik.jw.noren@gmail.com"
+    }
+  ],
+  "name": "ungit",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredrikNoren/ungit.git"
+  },
+  "scripts": {
+    "build": "grunt",
+    "start": "node ./bin/ungit",
+    "test": "grunt test",
+    "watch": "grunt watch"
+  },
+  "ungitPluginApiVersion": "0.2.0",
+  "version": "1.4.43",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=10.14"
+      },
+      "pkgid": "ungit@1.4.43"
+    },
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=10.14"
+      },
+      "pkgid": "ungit@1.4.43"
+    }
+  ],
+  "window": {
+    "title": "Ungit",
+    "icon": "icon.png",
+    "toolbar": false,
+    "frame": false,
+    "show": false,
+    "width": 1000,
+    "height": 600,
+    "position": "center",
+    "min_width": 400,
+    "min_height": 200
+  }
+}
