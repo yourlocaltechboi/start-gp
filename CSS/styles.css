@@ -2,7 +2,7 @@
 
 /* Code for the entire site, primarily background effects */
 body{
-    background-color: maroon;
+    background-image: url(bg.png);
     font-family: 'Josefin Sans';
 }
 
