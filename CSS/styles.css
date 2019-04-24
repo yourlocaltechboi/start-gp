@@ -181,7 +181,7 @@ th, td{
     font-size: 17px;
     color: white;
     background-color: gray;
-    opacity: 0.75;
+    opacity: 0.5;
 }
 
 /* Change the color of links on hover */
@@ -197,5 +197,5 @@ th, td{
     background-color: #660000;
     color: white;
     margin: 0 auto
-    opacity: 0.75;
+    opacity: 0.5;
 }
