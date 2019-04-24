@@ -168,6 +168,7 @@ th, td{
     margin: 0 auto;
     background-color: #333;
     margin: 0px;
+    opacity: 0.75;
 }
 
 /* Style the links inside the navigation bar */
@@ -180,6 +181,7 @@ th, td{
     font-size: 17px;
     color: white;
     background-color: gray;
+    opacity: 0.75;
 }
 
 /* Change the color of links on hover */
@@ -187,6 +189,7 @@ th, td{
     background-color: antiquewhite;
     color: black;
     height: 0 auto;
+    opacity: 0.2;
 }
 
 /* Add a color to the active/current link */
@@ -194,4 +197,5 @@ th, td{
     background-color: #660000;
     color: white;
     margin: 0 auto
+    opacity: 0.75;
 }
