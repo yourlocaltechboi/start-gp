@@ -108,7 +108,11 @@
                 </div>
                 <div class="column4">
                     <h2 class="center-underline-title">Info about this site</h2>
-                    <p>This site was created by Anden Wieseler in 2019. This site is meant as a portal to commonly used sites in an education environment. As of March 2019, this repository is actively being developed. To see the full progress of the repository, click the GitHub Repo link in the navigation bar.</p>
+                    <p>This site was created by Anden Wieseler in 2019. This site is meant as a portal to commonly used sites in an education environment. As of <span id="datetime"></span>
+                        <script>
+                            var dt = new Date();
+                            document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+                        </script>, this repository is actively being developed. To see the full progress of the repository, click the GitHub Repo link in the navigation bar.</p>
                 </div>
             </div>
         </span>
