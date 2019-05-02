@@ -118,15 +118,16 @@ Credit for this code: w3schools
 * {
     box-sizing: border-box;
 }
-.column1, .column2, .column3, .column4 {
+.column {
     float: left;
     width: 25%;
     padding: 10px;
-    height: 300px; 
+    height: auto; 
     border-style: solid;
     border-color: black;
     border-width: 2px;
     background-color: #aaa;
+    min-height: 350px;
 }
 .row:after {
     content: "";
