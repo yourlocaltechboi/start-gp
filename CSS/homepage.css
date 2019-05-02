@@ -134,48 +134,6 @@ Credit for this code: w3schools
     display: table;
     clear: both;
 }
-/* Add a black background color to the top navigation */
-.topnav {
-    position: fixed;
-    top: 0px;
-    right: 0;
-    left: 0;
-    margin-bottom: 10px;
-    margin: 0 auto;
-    background-color: #333;
-    margin: 0px;
-    opacity: 0.75;
-}
-
-/* Style the links inside the navigation bar */
-.topnava {
-    float: left;
-    text-align: center;
-    margin: 0 auto;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    color: white;
-    background-color: gray;
-    opacity: 0.9;
-}
-
-/* Change the color of links on hover */
-.topnava:hover {
-    background-color: antiquewhite;
-    color: black;
-    height: 0 auto;
-    opacity: 0.9;
-}
-
-/* Add a color to the active/current link */
-.topnava.active {
-    background-color: #660000;
-    color: white;
-    margin: 0 auto;
-    opacity: 0.9;
-}
-
 /* The sidebar menu */
 .sidenav {
 height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -188,19 +146,8 @@ background-color: #111; /* Black */
 overflow-x: hidden; /* Disable horizontal scroll */
 padding-top: 20px;
 }
-.dropdown-container {
-  display: none;
-  background-color: #262626;
-  padding-left: 8px;
-}
 
-/* Optional: Style the caret down icon */
-.fa-caret-down {
-  float: right;
-  padding-right: 8px;
-}
-/* The navigation menu links */
-.sidenav a, .dropdown-btn {
+.sidenav a {
 padding: 6px 8px 6px 16px;
 text-decoration: none;
 font-size: 25px;
@@ -209,7 +156,7 @@ display: block;
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .dropdown-btn:hover {
+.sidenav a:hover {
 color: #f1f1f1;
 }
 
