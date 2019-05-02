@@ -104,6 +104,10 @@ th, td{
   text-align: center;
   font-family: Josefin Sans;
 }
+.homelinks-wrapper{
+  min-height: 400px;
+  height: auto;
+}
 
 
 /* 
@@ -119,7 +123,7 @@ Credit for this code: w3schools
     float: left;
     width: 25%;
     padding: 10px;
-    height: auto; 
+    height: 100%; 
     border-style: solid;
     border-color: black;
     border-width: 2px;
@@ -133,7 +137,7 @@ Credit for this code: w3schools
 }
 /* The sidebar menu */
 .sidenav {
-height: 100%; /* Full-height: remove this if you want "auto" height */
+  height: 100%; /* Full-height: remove this if you want "auto" height */
 width: 180px; /* Set the width of the sidebar */
 position: fixed; /* Fixed Sidebar (stay in place on scroll) */
 z-index: 1; /* Stay on top */
