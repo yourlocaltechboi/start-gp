@@ -13,16 +13,18 @@ TO-DOS:
 
 /* BEGINNING CSS - NO COMMENTS AFTER THIS POINT */
 
-.14px{
-    font-size: 14px;
-}
+
 a {
   color: maroon;
   font-family: Josefin Sans;
 }
 body {
   font-family: 'Josefin Sans';
-  background-image: url(bg.png);
+  background: url(bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .center {
   text-align: center
