@@ -189,3 +189,8 @@ margin-right: 45px;
 margin-top: 17px;
 margin-bottom: 17px;
 }
+@media only screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
