@@ -130,7 +130,7 @@ Credit for this code: w3schools
     border-color: black;
     border-width: 2px;
     background-color: #aaa;
-    min-height: 350px;
+    min-height: 170px;
 }
 .row:after {
     content: "";
