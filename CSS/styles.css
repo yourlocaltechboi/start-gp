@@ -15,7 +15,7 @@ TO-DOS:
 
 
 a {
-  color: maroon;
+  color: rgb(81, 9, 99);
   font-family: Josefin Sans;
 }
 body {
@@ -32,7 +32,7 @@ body {
 .center-underline-title {
   text-align: center;
   text-decoration: underline;
-  color: maroon;
+  color: rgb(81, 9, 99);
   font-family: Josefin Sans;
 }
 .dirrow{
@@ -43,7 +43,7 @@ body {
     height: 15px;
 }
 .maroon {
-  color: maroon;
+  color: rgb(81, 9, 99);
 }
 .quick-links{
     margin: 10px;
@@ -74,7 +74,7 @@ body {
     text-align: center;
 }
 table{
-    background-color: maroon;
+    background-color: rgb(81, 9, 99);
 }
 table.center{
     margin-left: auto;
@@ -83,7 +83,7 @@ table.center{
 table, th, td{
     border-width: 1px;
     border-style: solid;
-    border-color: maroon;
+    border-color: rgb(81, 9, 99);
 }
 .tetris-gp{
     width: 100px;
@@ -102,7 +102,7 @@ th, td{
 }
 .title-text {
   font-size: 48px;
-  color: maroon;
+  color: rgb(81, 9, 99);
   text-align: center;
   font-family: Josefin Sans;
 }
