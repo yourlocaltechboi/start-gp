@@ -106,6 +106,12 @@ th, td{
   text-align: center;
   font-family: Josefin Sans;
 }
+.subtitle-text{
+    font-size: 26px;
+    color: rgb(81, 9, 99);
+    text-align: center;
+    font-family: Josefin Sans;
+}
 .homelinks-wrapper{
   min-height: 400px;
   height: auto;
