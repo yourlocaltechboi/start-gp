@@ -110,11 +110,21 @@ th, td{
   min-height: 400px;
   height: auto;
 }
-.control-button{
+#button-tos{
     background-color: rgb(81, 9, 99);
     border-radius: 10px;
     height: 40px;
     width: 150px;
+    color: antiquewhite;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    border-width: 0;
+}
+#button-aup{
+    background-color: rgb(81, 9, 99);
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
     color: antiquewhite;
     font-family: 'Josefin Sans';
     font-size: 16px;
