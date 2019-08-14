@@ -136,6 +136,9 @@ th, td{
     font-size: 16px;
     border-width: 0;
 }
+#button-tos:hover, #button-aup:hover{
+    background-color: #733A82;
+}
 
 
 /*
