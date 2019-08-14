@@ -113,8 +113,12 @@ th, td{
 .control-button{
     background-color: rgb(81, 9, 99);
     border-radius: 10px;
-    height: 20px;
-    width: auto;
+    height: 40px;
+    width: 100px;
+    color: antiquewhite;
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    border-width: 0;
 }
 
 
