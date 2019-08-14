@@ -110,6 +110,12 @@ th, td{
   min-height: 400px;
   height: auto;
 }
+.control-button{
+    background-color: rgb(81, 9, 99);
+    border-radius: 10px;
+    height: 20px;
+    width: auto;
+}
 
 
 /*
