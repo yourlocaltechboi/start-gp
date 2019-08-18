@@ -3,7 +3,7 @@
         <title>About this site</title>
         <link rel="icon" href="icons/xp.png">
         <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Staatliches|Righteous|Josefin+Sans|Oswald" rel="stylesheet">
-        <link rel="stylesheet" href="CSS/homepage.css">
+        <link rel="stylesheet" href="CSS/styles.css">
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135467915-1"></script>
         <script>
@@ -12,31 +12,11 @@
             gtag('js', new Date());
             gtag('config', 'UA-135467915-1');
         </script>
+        <script src="JS/include.js"></script>
     </head>
     <body>
         <!-- Side navigation -->
-        <div class="sidenav">
-            <a href="https://joemcrainbow.github.io/personal-website">
-                <img src="icons/img_avatar.png" class="rounded">
-            </a>
-            <a href="home">Home</a>
-            <hr>
-            <a href="education">Education Links</a>
-            <hr>
-            <a href="coding">Coding Links</a>
-            <hr>
-            <a href="other">Other Links</a>
-            <hr>
-            <a href="github-repo">Github Repo</a>
-            <hr>
-            <a href="games.html">Games</a>
-            <hr>
-            <a href="music.html">Music</a>
-            <hr>
-            <a href="pens.html">CodePen Projects</a>
-            <hr>
-            <a href="#" class="14px">(c) 2019 Anden Wieseler</a>
-        </div>
+        <div include="includes/navbar.html"></div>
         <!-- Page content -->
         <div class="main">
             <div class="title">
