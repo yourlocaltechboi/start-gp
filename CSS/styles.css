@@ -154,13 +154,18 @@ Credit for this code: w3schools
     float: left;
     width: 25%;
     padding: 10px;
-    height: auto;
-    min-height: 275px;
-    max-height: 400px;
+    height: 100%;
     border-style: solid;
     border-color: black;
     border-width: 2px;
     background-color: #aaa;
+}
+.column-container{
+  margin: 0;
+  padding: 0;
+  height: auto;
+  min-height: 275;
+  max-height: 400;
 }
 .row:after {
     content: "";
