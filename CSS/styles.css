@@ -161,6 +161,7 @@ Credit for this code: w3schools
     border-color: black;
     border-width: 2px;
     background-color: #aaa;
+    display: table-cell;
 }
 .column-container{
   margin: 0;
@@ -168,6 +169,7 @@ Credit for this code: w3schools
   height: auto;
   min-height: 275;
   max-height: 400;
+  display: table;
 }
 .row:after {
     content: "";
