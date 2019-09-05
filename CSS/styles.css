@@ -162,6 +162,13 @@ Credit for this code: w3schools
     border-width: 2px;
     background-color: #aaa;
 }
+.column-container{
+  margin: 0;
+  padding: 0;
+  height: auto;
+  min-height: 275;
+  max-height: 400;
+}
 .row:after {
     content: "";
     display: table;
